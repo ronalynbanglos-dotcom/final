@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ronalyn Banglos – Resume</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="resume-container">
+    
+    <!-- LEFT COLUMN (SIDEBAR) -->
+    <aside class="sidebar">
+      
+      <!-- PROFILE -->
+      <div class="profile-section">
+        <!-- If rona.jpg is not found, it will show a placeholder -->
+        <img src="rona.jpg" alt="Ronalyn Banglos" onerror="this.src='https://picsum.photos/seed/ronalyn/300/300'">
+      </div>
+
+      <!-- CONTACT -->
+      <div class="sidebar-block">
+        <h3 class="sidebar-title">CONTACT</h3>
+        <div class="contact-item">
+          <span class="icon">📞</span>
+          <span>+123-456-7890</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">✉️</span>
+          <span>ronalynbanglos@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <span class="icon">📍</span>
+          <span>Mauswagon, La Libertad,<br>Zamboanga del Norte</span>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="sidebar-block">
+        <h3 class="sidebar-title">EDUCATION</h3>
+        
+        <div class="edu-item">
+          <span class="edu-year">2026 – 2030</span>
+          <p class="edu-school"><strong>Colegio de San Francisco Savier</strong></p>
+          <p class="edu-degree">Major of Information Technology</p>
+        </div>
+
+        <div class="edu-item" style="margin-top: 15px;">
+          <span class="edu-year">2030 – 2036</span>
+          <p class="edu-school"><strong>Wardiere University</strong></p>
+          <p class="edu-degree">Master of IT Management</p>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="sidebar-block">
+        <h3 class="sidebar-title">SKILLS</h3>
+        <ul class="skills-list">
+          <li>Design Tools</li>
+          <li>Web Development</li>
+          <li>UX/UI Design</li>
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+          <li>Responsive Design</li>
+          <li>SEO Best Practices</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- RIGHT COLUMN (MAIN CONTENT) -->
+    <main class="main-content">
+      
+      <!-- HEADER -->
+      <header class="resume-header">
+        <h1 class="name">RONALYN BANGLOS</h1>
+        <p class="role">Web Designer</p>
+      </header>
+      
+      <div class="divider"></div>
+
+      <!-- SUMMARY -->
+      <section class="content-section">
+        <h3 class="section-title">PROFESSIONAL SUMMARY</h3>
+        <p class="summary-text">
+          Creative and detail-oriented Web Designer with a strong academic background in Information Technology and IT Management. Experienced in building responsive, user-centric websites that drive engagement. Passionate about transforming complex problems into elegant design solutions while adhering to industry best practices.
+        </p>
+      </section>
+
+      <!-- WORK EXPERIENCE -->
+      <section class="content-section">
+        <h3 class="section-title">WORK EXPERIENCE</h3>
+
+        <div class="job-card">
+          <div class="job-header">
+            <span class="job-year">2030 – PRESENT</span>
+            <h4 class="job-company">Borcelle Company</h4>
+            <p class="job-role">Web Designer</p>
+          </div>
+          <ul class="job-duties">
+            <li>Designed and developed responsive web interfaces for diverse clients, ensuring high standards of visual quality.</li>
+            <li>Collaborated with the development team to translate wireframes into fully functional HTML/CSS layouts.</li>
+            <li>Implemented SEO best practices to improve website visibility and organic search rankings.</li>
+          </ul>
+        </div>
+
+        <div class="job-card">
+          <div class="job-header">
+            <span class="job-year">2025 – 2029</span>
+            <h4 class="job-company">Wardiere Company</h4>
+            <p class="job-role">Junior Web Designer</p>
+          </div>
+          <ul class="job-duties">
+            <li>Assisted in the creation of user flows, wireframes, and high-fidelity prototypes.</li>
+            <li>Conducted user testing sessions to gather feedback and refine design choices.</li>
+            <li>Maintained and updated internal company websites to ensure security and functionality.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- AWARDS -->
+      <section class="content-section">
+        <h3 class="section-title">AWARDS</h3>
+        
+        <div class="award-item">
+          <strong>Gold Winner for Website Design</strong> – 2030
+          <p class="award-desc">Awarded for excellence in corporate web design and innovative user experience solutions.</p>
+        </div>
+        
+        <div class="award-item">
+          <strong>Award of Excellence in Web Design</strong> – 2029
+          <p class="award-desc">Recognized for outstanding academic performance and practical application of design principles.</p>
+        </div>
+      </section>
+
+      <!-- REFERENCES -->
+      <section class="content-section">
+        <h3 class="section-title">REFERENCES</h3>
+
+        <div class="references-grid">
+          <div class="ref-box">
+            <strong>Niranjan Devi</strong><br>
+            <span class="ref-role">Senior Manager</span><br>
+            Phone: 123-456-7890<br>
+            Email: hello@reallygreatsite.com
+          </div>
+          <div class="ref-box">
+            <strong>Prasha Anand</strong><br>
+            <span class="ref-role">Creative Director</span><br>
+            Phone: 123-456-7890<br>
+            Email: hello@reallygreatsite.com
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Print Button (Visible only on screen) -->
+  <button class="print-btn" onclick="window.print()">
+    Print / Save PDF
+  </button>
+
+</body>
+</html>
